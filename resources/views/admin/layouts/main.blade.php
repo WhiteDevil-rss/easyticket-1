@@ -1,0 +1,5 @@
+@section('title', isset($title) ? $title."" : '')
+@include('admin.layouts.header')
+@yield('admin_main-container')
+@yield('adminscript')
+@include('admin.layouts.footer')

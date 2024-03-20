@@ -1,0 +1,5 @@
+@section('title', isset($title) ? $title." |" : '')
+@include('frontend.layouts.header')
+@yield('main-container')
+@yield('script')
+@include('frontend.layouts.footer')
